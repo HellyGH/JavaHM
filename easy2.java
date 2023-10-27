@@ -98,7 +98,30 @@ public class Main {
 
     }
   //zad4
+      static void integer() {
+
+        Scanner scanner = new Scanner(System.in);
+        if (scanner.hasNextInt()) {
+            System.out.println("True");
+        } else {
+            System.out.println("False");
+        }
+    }
+
+
+
+    public static void main(String[] args){
+        integer(3);
+    }
+  //zad 5
       
+  
+
+
+
+
+
+}
       
       
 
