@@ -71,6 +71,34 @@ public class Main {
 
     }
 //zad3
+       static void min_max(){
+        int[] arr1= new int[]{1,2,3,4,5};
+        int min=arr1[0];
+
+        int max = arr1[0];
+        for (int i=1;i<arr1.length;i++){
+            if (arr1[i]>max){
+                max=arr1[i];
+            }
+            else {
+                min=arr1[i];
+            }
+
+        }
+        System.out.println(max);
+        System.out.println(min);
+
+
+    }
+    public static void main(String[] args) {
+        int[] arr1= new int[]{1,2,3,4,5};
+        System.out.println(Arrays.toString(arr1));
+        min_max();
+
+
+    }
+  //zad4
+      
       
       
 
