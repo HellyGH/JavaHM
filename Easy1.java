@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        zad 1
+       // zad 1
         int[] arr1 = {1,4,5};
         //loop for each element
         for(int i=0; i< arr1.length; i++){
@@ -163,6 +163,33 @@ public class Main {
         }
         else {
             System.out.println("Error");
+        }
+ //14zad
+        Scanner myscan = new Scanner(System.in);
+        int num = Integer.parseInt(myscan.nextLine());
+
+
+        for(int i=0;i<num;i++){
+
+            for (int j=0;j<num;j++){
+                System.out.print(" * ");
+
+            }
+            System.out.println();
+
+            
+//15zad
+            Scanner myscan = new Scanner(System.in);
+        int num = myscan.nextInt();
+        for (int i = 1; i <=num ; i++) {
+            for (int j = 1; j <=i; j++) {
+                System.out.print(" * ");
+
+
+            }
+            System.out.println();
+
+
         }
 
         
