@@ -113,7 +113,7 @@ public class Main {
     public static void main(String[] args){
         integer(3);
     }
-  //zad 5
+
       
   
 
