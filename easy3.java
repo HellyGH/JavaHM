@@ -42,7 +42,30 @@ public interface Printable {
     void printDetails(String name, int age,double grade);
 }
 
-//Задача 4
+//Задача 4 Създайте абстрактен клас Shape с методи area() и perimeter(). 
+//Създайте класове Circle и Rectangle, които наследяват Shape и имплементират тези методи.
+public abstract class Shape {
+   abstract void area();
+   abstract void perimeter();
+}
+public class Circle extends Shape{
+    @Override
+    void area() {
+    }@Override
+    void perimeter() {
+
+    }
+}
+public class Rectangle extends Shape{ 
+    @Override
+    void area() {
+    }@Override
+    void perimeter() {
+
+    }
+}
+//Задача 5
+
 
 
 
